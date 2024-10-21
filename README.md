@@ -133,6 +133,9 @@ artistic-tinder/
 
 ## Screenshots
 
+### Common Workflow:
+![Common Workflow](./public/video.gif)
+
 ### Before Search:
 ![Welcome Screen](./public/welcome.png)
 
@@ -152,4 +155,3 @@ artistic-tinder/
 
 ## Future Improvements
 Image Recommendations Engine: We can build and use our own AI engine for this with better performance.
-Further d
