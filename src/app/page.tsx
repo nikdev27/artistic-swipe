@@ -98,9 +98,9 @@ const Home: FC = () => {
   return (
     <div className="w-screen h-screen overflow-hidden flex">
       <div className="flex flex-col py-12 px-6">
-        <h2 className="text-2xl text-center font-bold mb-6 flex items-center gap-1">
-          <span className="text-4xl">🙁</span> Disliked Images{' '}
-          {!!dislikedImages.length && <span className="text-lg">({dislikedImages.length})</span>}
+        <h2 className="text-2xl text-center font-bold mb-6 flex justify-center items-center gap-1">
+          <span className="text-4xl">🙁</span> <span className="hidden lg:inline">Disliked Images</span>{' '}
+          {!!dislikedImages.length && <span className="text-lg hidden lg:inline">({dislikedImages.length})</span>}
         </h2>
         <div className="flex flex-col items-center overflow-y-auto h-0 flex-grow">
           {dislikedImages.toReversed().map((image, index) => (
@@ -129,8 +129,8 @@ const Home: FC = () => {
       </div>
       <div className="flex flex-col py-12 px-6">
         <h2 className="text-2xl text-center font-bold mb-6 flex items-center gap-1">
-          <span className="text-4xl">😍</span> Liked Images{' '}
-          {!!likedImages.length && <span className="text-lg">({likedImages.length})</span>}
+          <span className="text-4xl">😍</span> <span className="hidden lg:inline">Liked Images</span>{' '}
+          {!!likedImages.length && <span className="text-lg hidden lg:inline">({likedImages.length})</span>}
         </h2>
         <div className="flex flex-col items-center overflow-y-auto h-0 flex-grow">
           {likedImages.toReversed().map((image, index) => (

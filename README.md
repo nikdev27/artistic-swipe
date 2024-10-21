@@ -151,4 +151,5 @@ artistic-tinder/
 ---
 
 ## Future Improvements
-Image Recommendations: Implement a recommendation system that shows more images similar to the ones the user likes.
+Image Recommendations Engine: We can build and use our own AI engine for this with better performance.
+Further d

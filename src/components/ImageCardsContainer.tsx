@@ -72,7 +72,7 @@ const ImageCardsContainer: FC<ImageCardsContainerProps> = ({
   }
 
   return (
-    <div className="w-[32rem] h-[32rem] flex flex-col items-center">
+    <div className="w-[24rem] h-[24rem] flex flex-col items-center lg:w-[32rem] lg:h-[32rem]">
       {images?.map((image, index) => (
         <ImageCard
           key={`${image.related_content_id}-${index}`}

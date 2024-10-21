@@ -35,7 +35,7 @@ const ImageCard: FC<ImageCardProps> = ({ image, onSwipeLeft, onSwipeRight, onLef
       className="absolute"
     >
       <div
-        className="w-[32rem] h-[32rem] bg-gray-100 border-2 border-gray-200 flex justify-center items-center mb-4 rounded-xl bg-cover shadow-lg"
+        className="w-[24rem] h-[24rem] bg-gray-100 border-2 border-gray-200 flex justify-center items-center mb-4 rounded-xl bg-cover shadow-lg lg:w-[32rem] lg:h-[32rem]"
         style={{ backgroundImage: 'url(' + image.original + ')' }}
       />
     </TinderCard>
