@@ -8,6 +8,12 @@ The project uses **SerpAPI** to fetch images from Google Image search, providing
 
 ---
 
+## Live Demo
+
+You can try out the live demo of the application here: [Live Demo Link](https://artistic-tinder.vercel.app/).
+
+---
+
 ## Features
 
 - **Search for Images**: Users can search for various images using keywords like "Logo for a shoe company" or "Marketing website for a vet."
@@ -56,12 +62,6 @@ The app will be available at http://localhost:3000.
 
 ### 5. Build for Production
 To build the app for production, run the following command:
-```bash
-npm run build
-# or
-yarn build
-```
-Once built, you can start the server:
 ```bash
 npm run build
 # or
@@ -154,4 +154,9 @@ artistic-tinder/
 ---
 
 ## Future Improvements
-Image Recommendations Engine: We can build and use our own AI engine for this with better performance.
+**Image Recommendations Engine**: This feature is not perfect version now. It's performance is not so good yet. But my approach is just one of good solutions. To improve performance, we can build and use our own AI model or use any other services with prompt engineering.
+
+---
+
+## Conclusion
+Thank you for taking the time to review this project. I welcome any feedback or suggestions you may have, as they are invaluable for continuous improvement.
